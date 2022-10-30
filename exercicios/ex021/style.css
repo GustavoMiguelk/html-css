@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    background-color: beige;
+    height: 300px;
+    width: 300px;
+
+    border: 10px solid rgb(143, 188, 182) ;
+
+    padding: 10px 10px 10px 10px;
+
+    margin: 20px auto 40px auto;
+
+    outline: 1px dashed salmon;
+}
+a {
+    border: 1px solid red;
+    padding: 10px;
+}
