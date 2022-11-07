@@ -4,13 +4,10 @@
 
 body {
     min-width: 300px;
-    max-width: 1860px;
+    max-width: 1920px;
     margin: 0;
 }
 
-.img {
-    width: 100%;
-}
 
 header {
     background-color: black;
@@ -52,7 +49,7 @@ section {
 
 section p {
     background-color: rgba(0, 0, 0, 0);
-    width: 1000px;
+    width: 50%;
     padding:30px;
     text-align: left;
     text-indent: unset;
@@ -65,14 +62,15 @@ section p {
     background-image: url(imagens/background001.jpg);
     background-position: left center;
     background-attachment: fixed;
+    background-size: 100%;
+    background-repeat: no-repeat;
     height: 700px;
 }
 
 #img1 p {
     background-color: rgba(0, 0, 0, 0.205);
-    height: 80%;
-    padding: 60px;
-    width: 1000px;
+    height: 50%;
+    width: 50%;
 }
 
 
@@ -81,14 +79,16 @@ section p {
     background-image: url(imagens/background002.jpg);
     background-position: left center;
     background-attachment: fixed;
-    height: 1000px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+}
 }
 
 #img2 p {
     background-color: rgba(0, 0, 0, 0.205);
-    padding: 60px;
-    height: 80%;
-    width: 1000px;
+    height: 50%;
+    width: 50%;
 }
 
 footer {
