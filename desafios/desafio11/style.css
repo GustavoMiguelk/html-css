@@ -32,7 +32,7 @@ header > h1 {
 }
 
 header > P {
-    padding-bottom:70px;
+    padding-bottom: 90px;
 }
 
 a {
@@ -54,7 +54,8 @@ section {
 }
 
 section > p {
-    font-size: 1.6rem;
+    display: inline-block;
+    font-size: 3vh;
 }
 
 section.normal {
@@ -69,6 +70,7 @@ section.img {
 
 section.img > p {
     background-color: rgba(0, 0, 0, 0.123);
+    display: inline-block;
     padding: 5px;
     width: 400px;
 }
